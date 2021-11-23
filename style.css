@@ -107,4 +107,97 @@
       color: #FFC107;
       width: 100%;
   }
+    /* Competences */
+    #competence #bande{
+        width: 100%;
+        height: 80px;
+        border :none;
+        background-color: #FFC107;
+    }
+    #competence img{
+        width: 50px;
+        margin-top: -130px;
+        opacity: 0.33; 
+    }
+    #competence .bande-competence{
+        text-align: center;
+        margin-top: -60px;
+        font-weight: bold;
+        font-size: 28px;
+    }
+    #competence img{
+     margin-left: 88%;
+     margin-top: -70px;
+    }
+    #competence #ce-que-je-fais{
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    #competence #p-competence{
+        margin-left: 20px;
+        font-size: 20px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    #competence .name-langage{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    #competence .database{
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: -10px;
+    
+    }
+    #competence .bd-highlight{
+        margin-top: 20px;
+        margin-left: -10px;
+        font-size: 20px;
+    }
+    #competence .flex-column img{
+        margin-left: 53px;
+        width: 45px;
+        margin-top: -50px;
+    }
+    #competence .niveau-competence{
+        margin-left: 20px;
+    }
+    #competence .progress{
+        border: 1px solid #FFC107;
+        width: 95%;
+        height: 30px;
+        background: #FFFFFF;
+    }
+    #competence .progress .color{
+        background: #FFC107;
+        border: none;
+        width: 85%;
+    }
+    #competence .progress .color-php{
+        background: #FFC107;
+        border: none;
+        width: 75%;
+    }
+    #competence .progress .color-bi{
+        background: #FFC107;
+        border: none;
+        width: 50%;
+    }
+    #competence .progress .color-js{
+        background: #FFC107;
+        border: none;
+        width: 70%;
+    }
+    #competence .progress .color-wp{
+        background: #FFC107;
+        border: none;
+        width: 85%;
+    }
+    .niveau-competence span{
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+    }
+
 }
