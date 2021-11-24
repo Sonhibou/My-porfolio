@@ -53,6 +53,7 @@
   }
     .nav-link a :hover{
         color: #FFC107;
+        margin-left: -4px;
     }
   .bienvenu{
       font-size: 24px;
@@ -265,6 +266,13 @@
         margin-top: 0px;
         
     }
+    #divers .loisir{
+        margin-top: 20px;
+    }
+    #divers .start-fr{
+        margin-left: -42px;
+        
+    }
     #divers .img-loisir{
         opacity: 2;
         width: 50%;
@@ -321,4 +329,25 @@
         margin-left: 130px;
         box-shadow: 5px 5px 5px 5px #bdc3c7;
     }
-}
+    /* Footer */
+   .col-lg-3 .btn-envoyer-nl {
+    border: 1px solid #FFC107;
+    background: #FFFFFF;
+    color: black;
+    margin-top: 20px;
+    width: 30%;
+    
+    box-shadow: 5px 5px 5px 5px #bdc3c7;
+    }
+    .col-lg-3 .form-control{
+        border: 1px solid black;
+    }
+    .col-lg-3 span{
+        opacity: 2;
+    } 
+    .col-lg-3 li a{
+        opacity: 2;
+        text-decoration: none;
+        color: black;
+    } 
+   }
