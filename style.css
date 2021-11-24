@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,200;0,400;1,400;1,600&display=swap');
 
 *{
     font-family: 'Petrona', serif;
@@ -78,24 +79,24 @@
   }
 
   /* Section Formation */
-    .formation #bande{
+    #formation #bande{
       width: 100%;
       height: 80px;
       border :none;
       background-color: #FFC107;
   }
-  .formation .titre-bande{
+   #formation .titre-bande{
       text-align: center;
       margin-top: -60px;
       font-weight: bold;
       font-size: 28px;
   }
-  .formation img{
+    #formation img{
       width: 50px;
       margin-top: -130px;
       opacity: 0.33;
   }
-  .formation .flex-column{
+   #formation .flex-column{
       margin-top: -10px;
       font-size: 20px;
   }
@@ -229,5 +230,95 @@
     #carouselExampleIndicators img{
         height: 500px;
         opacity: 2;
+    }
+    /* Section  */
+
+    #divers #bande{
+        width: 100%;
+        height: 80px;
+        border :none;
+        background-color: #FFC107;
+    }
+    #divers img{
+        margin-left: 88%;
+        margin-top: -70px;
+        opacity: 0.33; 
+        width: 50px
+        ;
+    }
+    #divers .bande-divers{
+        text-align: center;
+        margin-top: -60px;
+        font-weight: bold;
+        font-size: 28px;
+    }
+    #divers span{
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+    #divers .langue img{
+        opacity: 2;
+        width: 18px;
+        margin-left: 20px;
+        margin-top: 0px;
+        
+    }
+    #divers .img-loisir{
+        opacity: 2;
+        width: 50%;
+        margin-left: 20px;
+        margin-top: 90px;
+    }
+   /* Contact */
+   #contact #bande{
+    width: 100%;
+    height: 80px;
+    border :none;
+    background-color: #FFC107;
+    }
+    #contact img{
+    margin-left: 88%;
+    margin-top: -70px;
+    opacity: 0.33; 
+    width: 50px ;
+    }
+    #contact .bande-contact{
+    text-align: center;
+    margin-top: -60px;
+    font-weight: bold;
+    font-size: 28px;
+    }
+    #contact .ecris-moi{
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 60px;
+    }
+   #contact p{
+    font-size: 20px;
+    margin-left: 15px;
+    }
+    #contact form{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #contact form label{
+        font-size: 18px;
+    }
+    #contact form input{
+        box-shadow: 5px 5px 5px 5px #bdc3c7;
+    }
+    #floatingTextarea2{
+        box-shadow: 5px 5px 5px 5px #bdc3c7;
+    }
+    .btn-envoyer{
+        border: 1px solid #FFC107;
+        background: #FFFFFF;
+        color: black;
+        margin-top: 20px;
+        width: 30%;
+        margin-left: 130px;
+        box-shadow: 5px 5px 5px 5px #bdc3c7;
     }
 }
