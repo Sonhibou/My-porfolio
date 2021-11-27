@@ -3,9 +3,10 @@
 
 *{
     font-family: 'Petrona', serif;
+    position: static;
     
 }
-@media screen and (min-width: 601px) and (max-width:2000px) {
+@media (min-width: 901px) and (max-width:2000px) {
     .profil{
         margin-left: 80px;  
     } .profil img{
@@ -37,8 +38,18 @@
         margin-top: -160px;
         opacity: 0.33;
     }
+    #formation .formation-flex{
+
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .formation-flex span{
+        
+    }
     #formation .bd-highlight{
         margin-top: 30px;
+        
     }
     /* Competence */
     #competence #bande{
@@ -59,9 +70,123 @@
         font-size: 28px;
     }
     #competence img{
-     margin-left: 88%;
-     margin-top: -70px;
+     margin-left: 97%;
+     margin-top: -10px;
     }
+    #competence span{
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+
+    #competence .progress{
+        border: 1px solid #FFC107;
+        width: 45%;
+        height: 30px;
+        background: #FFFFFF;
+        margin-left: 5%;
+    }
+    #competence .progress .color{
+        background: #FFC107;
+        border: none;
+        width: 85%;
+        
+    }
+    #competence .progress .color-php{
+        background: #FFC107;
+        border: none;
+        width: 75%;
+    }
+    #competence .progress .color-bi{
+        background: #FFC107;
+        border: none;
+        width: 50%;
+    }
+    #competence .progress .color-js{
+        background: #FFC107;
+        border: none;
+        width: 70%;
+    }
+    #competence .progress .color-wp{
+        background: #FFC107;
+        border: none;
+        width: 85%;
+    }
+    /* --------- Projet -------- */
+    #projet #bande{
+        width: 100%;
+        height: 150px;
+        border :none;
+        background: #FFC107;
+    }
+    #projet .icon-bande{
+        width: 80px;
+        margin-top: -160px;
+        opacity: 0.33;
+    } 
+    
+    #projet .bande-projet{
+        text-align: center;
+        margin-top: -100px;
+        font-weight: bold;
+        font-size: 28px;
+    }
+    #projet #carouselExampleIndicators{
+        width: 70%;
+        margin-left: 15%;
+    } 
+    .carousel-control-prev-icon{
+        background: #FFC107;
+    }
+    .carousel-control-next-icon{
+        background: #FFC107;
+    }
+    .carousel-indicators .slide1{
+        background: #FFC107;
+        border-radius: 50%;
+    }
+    /* --------- DIvers ------- */
+    #divers #bande{
+        width: 100%;
+        height: 150px;
+        border :none;
+        background: #FFC107;
+    }
+    #divers img{
+        width: 50px;
+        margin-top: -130px;
+        opacity: 0.33; 
+    }
+    #divers .bande-divers{
+        text-align: center;
+        margin-top: -100px;
+        font-weight: bold;
+        font-size: 28px;
+    }
+    #divers img{
+     margin-left: 97%;
+     margin-top: -10px;
+    }
+    /* ------- Contact -------- */
+    #contact #bande{
+        width: 100%;
+        height: 150px;
+        border :none;
+        background: #FFC107;
+    }
+    #contact .bande-contact{
+        text-align: center;
+        margin-top: -100px;
+        font-weight: bold;
+        font-size: 28px;
+    }
+      #contact img{
+        width: 80px;
+        margin-top: -160px;
+        opacity: 0.33;
+    }
+
 }
 
 
@@ -99,22 +224,22 @@
 .profil img{
     height: 70%;
 }
+    #navbarNavAltMarkup a:hover{
+    color: #FFC107;
+}
 /* Section Formation */
 .formation .bande{
     width: 100%;
     background: #FFC107;
 }
 /* ======= Media Queries==== */
-@media screen and (max-width: 600px)
+@media (max-width: 900px)
 {
   .profil{
     margin-left: 0  px;    
      margin-right: 20px;
   }
-    .nav-link :hover{
-        color: #FFC107;
-        margin-left: -4px;
-    }
+
   .bienvenu{
       font-size: 24px;
       font-weight: bold;
@@ -122,10 +247,12 @@
   .profil span{
       font-size: 22px;
       font-weight: bold;
+      margin-top: -30px;
       
   }
   .profil .change-text{
       color: #FFC107;
+      margin-left: 10px;
   }
   .profil p {
       font-size: 20px;
@@ -133,11 +260,14 @@
   .profil img{
       height: 70%;
       width: 80%;
-      margin-left: 50px;
+      margin-left: 15%;
+      margin-top: -40px;
+      position: static;
       border: none;
-      
-     
   }
+  #navbarNavAltMarkup a:hover{
+    color: #FFC107;
+}
   .col-profil{
       margin-top: 10px;
 
@@ -161,15 +291,17 @@
       margin-top: -130px;
       opacity: 0.33;
   }
-   #formation .flex-column{
+   #formation .formation-flex{
       margin-top: -10px;
       font-size: 20px;
+      display: flex;
+      flex-direction: column;
   }
-  .flex-column p{
+    .formation-flex p{
       margin-left: -14px;
       margin-right: 5px;
   }
-  .flex-column hr{
+    .formation-flex hr{
       color: #FFC107;
       width: 100%;
   }
