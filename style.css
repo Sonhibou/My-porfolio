@@ -38,20 +38,14 @@
         margin-top: -160px;
         opacity: 0.33;
     }
-    #formation .formation-flex{
-
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
+    #formation .annee-formation{
+        margin-top: 50px;
+        font-size: 20px;
+        border-right: 1px solid #000000;
     }
-    .formation-flex span{
-        
-    }
-    #formation .bd-highlight{
-        margin-top: 30px;
-        
-    }
+   
     /* Competence */
+
     #competence #bande{
         width: 100%;
         height: 150px;
@@ -73,13 +67,35 @@
      margin-left: 97%;
      margin-top: -10px;
     }
+    #competence .container-fluid{
+        margin-top: 50px;
+        
+    }
+    #competence #p-competence{
+        font-size: 20px;
+        margin-left: 50px;
+    }
     #competence span{
         font-size: 24px;
         font-weight: bold;
         margin-left: 100px;
-        margin-top: 50px;
+        margin-bottom: 40px;
     }
-
+    #competence b{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    #competence .desc-dev{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    #competence .row img{
+        opacity: 2;
+        margin-left: 25px;
+    }
+    #competence .competence-dev{
+        border-right: 1px solid #000000;
+    }
     #competence .progress{
         border: 1px solid #FFC107;
         width: 45%;
@@ -146,7 +162,7 @@
         background: #FFC107;
         border-radius: 50%;
     }
-    /* --------- DIvers ------- */
+    /* --------- Divers ------- */
     #divers #bande{
         width: 100%;
         height: 150px;
@@ -164,9 +180,19 @@
         font-weight: bold;
         font-size: 28px;
     }
-    #divers img{
+    #divers .icon-bande{
      margin-left: 97%;
      margin-top: -10px;
+    }
+    #divers span .start-fr{
+        width: 10px;
+    
+    }
+    #divers span .start-en{
+        width: 10px;
+    }
+    #divers span{
+        font-weight: bold;
     }
     /* ------- Contact -------- */
     #contact #bande{
@@ -186,7 +212,70 @@
         margin-top: -160px;
         opacity: 0.33;
     }
-
+    #contact .ecris-moi{
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 60px;
+    }
+    #contact .message{
+        margin-top: 130px;
+    }
+    #contact .formulaire{
+        margin-top: 50px;
+    }
+    #contact p{
+    font-size: 20px;
+    margin-left: 55px;
+    }
+    #contact form{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #contact form label{
+        font-size: 18px;
+    }
+    #contact form input{
+        box-shadow: 5px 5px 5px 5px #bdc3c7;
+        width: 60%;
+        height: 50px;
+    }
+    #floatingTextarea2{
+        box-shadow: 5px 5px 5px 5px #bdc3c7;
+        width: 60%;
+    }
+    .btn-envoyer{
+        border: 1px solid #FFC107;
+        background: #FFFFFF;
+        color: black;
+        margin-top: 20px;
+        width: 130px;
+        margin-left: 200px;
+        box-shadow: 5px 5px 5px 5px #bdc3c7;
+    }
+    footer{
+        
+    }
+    .col-lg-3 .btn-envoyer-nl {
+        border: 1px solid #FFC107;
+        background: #FFFFFF;
+        color: black;
+        margin-top: 20px;
+        width: 30%;
+        box-shadow: 5px 5px 5px 5px #bdc3c7;
+        }
+        .col-lg-3 .form-control{
+            border: 1px solid black;
+        }
+        .col-lg-3 span{
+            opacity: 2;
+            width: 100%;
+        } 
+        .col-lg-3 li a{
+            opacity: 2;
+            text-decoration: none;
+            color: black;
+        } 
+    
 }
 
 
@@ -236,7 +325,7 @@
 @media (max-width: 900px)
 {
   .profil{
-    margin-left: 0  px;    
+    margin-left: 0px;    
      margin-right: 20px;
   }
 
@@ -291,20 +380,7 @@
       margin-top: -130px;
       opacity: 0.33;
   }
-   #formation .formation-flex{
-      margin-top: -10px;
-      font-size: 20px;
-      display: flex;
-      flex-direction: column;
-  }
-    .formation-flex p{
-      margin-left: -14px;
-      margin-right: 5px;
-  }
-    .formation-flex hr{
-      color: #FFC107;
-      width: 100%;
-  }
+
     /* Competences */
     #competence #bande{
         width: 100%;
@@ -338,15 +414,24 @@
         margin-right: 10px;
         margin-top: 10px;
     }
-    #competence .name-langage{
+    #competence b{
         font-size: 24px;
         font-weight: bold;
+    }
+    #competence .desc-dev{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    #competence .row img{
+        opacity: 2;
+        margin-left: 5px;
+        margin-top: 5px;
+        width: 30px;
     }
     #competence .database{
         font-size: 24px;
         font-weight: bold;
         margin-top: -10px;
-    
     }
     #competence .bd-highlight{
         margin-top: 20px;
@@ -436,12 +521,11 @@
         border :none;
         background-color: #FFC107;
     }
-    #divers img{
+    #divers .icon-bande{
         margin-left: 88%;
         margin-top: -70px;
         opacity: 0.33; 
-        width: 50px
-        ;
+        width: 50px;
     }
     #divers .bande-divers{
         text-align: center;
@@ -457,7 +541,7 @@
     }
     #divers .langue img{
         opacity: 2;
-        width: 18px;
+        width: 100px;
         margin-left: 20px;
         margin-top: 0px;
         
@@ -467,6 +551,7 @@
     }
     #divers .start-fr{
         margin-left: -42px;
+       
         
     }
     #divers .img-loisir{
@@ -532,8 +617,8 @@
     color: black;
     margin-top: 20px;
     width: 30%;
-    
     box-shadow: 5px 5px 5px 5px #bdc3c7;
+    margin-left: 150px;
     }
     .col-lg-3 .form-control{
         border: 1px solid black;
